@@ -1,0 +1,9 @@
+## drop_batchnorm.py
+
+* Includes batch normalization in every layer of the net
+* Includes dropout (0.5) in every layer
+
+## TODO
+
+* Test drop_batchnorm.py against network with no Dropout
+* Test drop_batchnorm.py with large dropout in input layer and much lower in hidden layers 
