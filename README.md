@@ -13,7 +13,7 @@ This project was built using Atom.
 ### How to Use
 ___
 In order to run the current project, simply run conv_net.py in your terminal:
-'python conv_net.py'
+'''python conv_net.py'''
 
 ### License
 ___
