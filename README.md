@@ -16,6 +16,11 @@ In order to run the current project, simply run conv_net.py in your terminal:
 ```python
 python conv_net.py
 ```
+### To Do 
+- Look into implementing a ResNet  
+- Look at ImageNet Competition winner's architecture and trained hyperparameters 
+
+
 
 ### License
 ___
