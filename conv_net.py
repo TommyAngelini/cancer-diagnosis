@@ -73,7 +73,7 @@ model.summary()
 #compilation
 
 model.compile(loss='categorical_crossentropy',
-             optimizer='adam',
+             optimizer='sgd',
              metrics=['accuracy'])
 
 #training
@@ -85,7 +85,7 @@ class_weight = {0: 2.,
 scores = []
 
 #create KFold, run for loop for k iterations
-cv = KFold(n_splits=10, random_state=42, shuffle=False)
+cv = KFold(n_splits=11, random_state=42, shuffle=False)
 for train_index, test_index in cv.split(X):
     print("Train Index: ", train_index, "\n")
     print("Test Index: ", test_index)
