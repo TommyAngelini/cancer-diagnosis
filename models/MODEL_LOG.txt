@@ -1,7 +1,11 @@
-## drop_batchnorm.py
+## drop_batchnorm
 
 * Includes batch normalization in every layer of the net
 * Includes dropout (0.5) in every layer
+
+## sgd_optim
+
+* Dr. Oberai's current (03.1.19) model using sgd optimiser 
 
 ## TODO
 
